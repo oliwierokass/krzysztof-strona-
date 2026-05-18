@@ -1,0 +1,56 @@
+Oto gotowy, zaawansowany prompt do Lovable (lub innego kreatora AI), przygotowany na podstawie przesłanych informacji oraz zdjęcia z ogłoszenia. Zmieniłem imię w treści promptu na Pan Krzysztof, ponieważ takie widnieje na screenie z OLX, ale jeśli firma ma nazywać się inaczej, możesz to łatwo edytować w tekście.
+
+Prompt do wklejenia w Lovable:
+"Stwórz nowoczesną, luksusową i w pełni responsywną stronę internetową dla firmy remontowo-budowlanej 'Krzysztof – Kompleksowe Wykończenia Wnętrz' działającej na terenie Małopolski (baza: Limanowa i okolice).
+
+Strona musi mieć unikalny, edytorialny wygląd w stylu premium, wzorowany na nowoczesnych biurach architektonicznych, aby wyróżnić firmę na tle standardowych, nudnych stron budowlanych.
+
+1. Kolorystyka i Styl:
+Paleta barw: Ciepłe odcienie bieli (#FFFFFF, #FDFBF7), głęboki antracyt/czarny dla kontrastu oraz eleganckie akcenty w kolorze naturalnego, ciemnego drewna lub subtelnego złota/mosiądzu (nawiązując do eleganckich sufitów i wykończeń).
+
+Typografia: Wyrazisty, elegancki font szeryfowy (Serif) dla głównych nagłówków oraz nowoczesny, czytelny font bezszeryfowy (Sans-serif) dla tekstów użytkowych.
+
+2. Struktura Strony (Sekcje):
+Hero Section (Główna sekcja):
+
+Duże, klimatyczne zdjęcie nowoczesnego wnętrza w tle.
+
+Główny nagłówek (H1): 'Wnętrza z Pasją – Remonty od A do Z w Małopolsce.'
+
+Podtytuł: 'Kompleksowe wykończenia mieszkań deweloperskich oraz metamorfozy rynku wtórnego. Powierzone nam prace realizujemy zawsze na 100%.'
+
+Przycisk CTA: 'Zgłoś się po darmową wycenę'.
+
+O Nas:
+
+Krótki, profesjonalny tekst wzbudzający zaufanie: 'Jesteśmy dynamiczną firmą remontowo-budowlaną z Małopolski. Specjalizujemy się w kompleksowej obsłudze inwestycji mieszkaniowych. Łączymy rzemieślniczą precyzję z nowoczesnymi technologiami, dbając o każdy, nawet najmniejszy detal Twojego nowego domu.'
+
+Usługi (Czytelna siatka z ikonami i podziałem):
+Uporządkuj ofertę w eleganckie kafelki:
+
+Prace Glazurnicze: Kompleksowe wykończenia łazienek, kładzenie glazury i gresu wielkoformatowego.
+
+Zabudowy i Sufity: Konstrukcje kartonowo-gipsowe, sufity podwieszane, obniżane oraz napinane, adaptacja poddaszy.
+
+Wykończenia Ścian: Szpachlowanie, gipsowanie, malowanie, tapetowanie wnętrz oraz nowoczesne tynki dekoracyjne.
+
+Podłogi i Stolarka: Układanie paneli podłogowych, parkietów oraz profesjonalny montaż drzwi wewnętrznych.
+
+Remonty Generalne: Przebudowy budynków od stanu surowego do finalnego efektu.
+
+Nasze Realizacje (Galeria z zakładkami):
+
+Stwórz interaktywną galerię z filtrami: 'Wszystko', 'Łazienki', 'Zabudowy G-K', 'Salony i Pokoje'.
+
+Użyj asymetrycznego układu typu Masonry Grid.
+
+Kontakt i Lokalizacja:
+
+Elegancki formularz zapytania ofertowego (Imię, Telefon, Zakres prac).
+
+Wyraźna informacja: 'Działamy na terenie całego województwa małopolskiego (Limanowa, Nowy Sącz, Kraków i okolice)'.
+
+3. Dodatkowe funkcjonalności:
+Dodaj w widocznym miejscu element zapewniający o jakości: 'Gwarancja 100% satysfakcji – stały kontakt z inwestorem na każdym etapie remontu.'
+
+Zaimplementuj płynne animacje pojawiania się elementów podczas przewijania strony (scroll animations)."

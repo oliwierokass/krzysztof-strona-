@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Krzysztof – Kompleksowe Wykończenia Wnętrz"
+version = "1.0.0"
+id = "artifacts/krzysztof-remonty"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18984
+
+[services.development]
+run = "pnpm --filter @workspace/krzysztof-remonty run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/krzysztof-remonty", "run", "build" ]
+publicDir = "artifacts/krzysztof-remonty/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18984"
+BASE_PATH = "/"

@@ -1,0 +1,56 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "b3n0XW6l6X9Mt0OGeq_k_"
+uri = "file://artifacts/krzysztof-remonty/public/images/hero.png"
+type = "image"
+title = "Modern living room hero"
+
+[[generated]]
+id = "fAKxJFhTucDJ5gJzuZmkU"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-bath-1.png"
+type = "image"
+title = "Modern luxury bathroom"
+
+[[generated]]
+id = "X70uDWQuoZQ7uF98MRrO_"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-bath-2.png"
+type = "image"
+title = "Minimalist shower microcement"
+
+[[generated]]
+id = "WAULFtUau5mT2QSoqJYDQ"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-gk-1.png"
+type = "image"
+title = "Custom LED ceiling"
+
+[[generated]]
+id = "G_CCP2aG4moLJVkRtU-A6"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-gk-2.png"
+type = "image"
+title = "Media wall built-in"
+
+[[generated]]
+id = "qdOGtkBcWVKiywbYJ158a"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-living-1.png"
+type = "image"
+title = "Sophisticated living room"
+
+[[generated]]
+id = "5IMe0oizYPNMc24pZZYLp"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-living-2.png"
+type = "image"
+title = "Minimalist elegant bedroom"
+
+[[generated]]
+id = "Cg4n_jzwrFnHJPLvy5CYo"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-living-3.png"
+type = "image"
+title = "Open concept kitchen"
+
+[[generated]]
+id = "REboAQ_WFmTuzKrjxarXc"
+uri = "file://artifacts/krzysztof-remonty/public/images/gallery-detail-1.png"
+type = "image"
+title = "Herringbone floor detail"
