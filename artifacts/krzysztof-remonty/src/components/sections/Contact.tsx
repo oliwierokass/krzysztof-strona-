@@ -33,12 +33,12 @@ export default function Contact() {
             className="mb-12"
           >
             <a
-              href="tel:+48000000000"
+              href="tel:+48882650216"
               data-testid="link-phone-cta"
               className="inline-flex items-center gap-4 bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-5 text-xl font-medium tracking-wide transition-colors duration-200"
             >
               <Phone size={22} className="flex-shrink-0" />
-              Zadzwoń: +48 000 000 000
+              Zadzwoń: 882 650 216
             </a>
           </motion.div>
 
