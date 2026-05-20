@@ -1,11 +1,20 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-type Category = "Wszystko" | "Łazienki" | "Zabudowy G-K" | "Salony i Pokoje";
+import img1 from "@assets/1_1779293287676.webp";
+import img2 from "@assets/2_1779293287673.webp";
+import img3 from "@assets/3_1779293287674.webp";
+import img4 from "@assets/4_1779293287674.webp";
+import img5 from "@assets/5_1779293287674.webp";
+import img6 from "@assets/6_1779293287675.webp";
+import img7 from "@assets/7_1779293287675.webp";
+import img8 from "@assets/8_1779293287675.webp";
+
+type Category = "Wszystkie" | "Wykończenia" | "Łazienki" | "Salony i Pokoje";
 
 interface GalleryItem {
   id: number;
-  category: Exclude<Category, "Wszystko">;
+  category: Exclude<Category, "Wszystkie">;
   title: string;
   image: string;
   tall?: boolean;
@@ -14,71 +23,65 @@ interface GalleryItem {
 const items: GalleryItem[] = [
   {
     id: 1,
-    category: "Łazienki",
-    title: "Łazienka z gresu wielkoformatowego",
-    image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80",
+    category: "Wykończenia",
+    title: "Prace wyburzeniowe i przygotowanie konstrukcji sufitu",
+    image: img1,
     tall: true,
   },
   {
     id: 2,
     category: "Salony i Pokoje",
-    title: "Nowoczesny salon z zabudową TV",
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
-  },
-  {
-    id: 3,
-    category: "Zabudowy G-K",
-    title: "Sufit podwieszany z oświetleniem",
-    image: "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?w=800&q=80",
+    title: "Wykończenie sypialni na poddaszu, ściana dekoracyjna",
+    image: img2,
     tall: true,
   },
   {
+    id: 3,
+    category: "Salony i Pokoje",
+    title: "Nowoczesna zabudowa ścian z podświetleniem LED",
+    image: img3,
+  },
+  {
     id: 4,
-    category: "Łazienki",
-    title: "Minimalistyczna łazienka",
-    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+    category: "Wykończenia",
+    title: "Tynki dekoracyjne i przygotowanie wnęki TV",
+    image: img4,
   },
   {
     id: 5,
-    category: "Salony i Pokoje",
-    title: "Sypialnia z tapetą dekoracyjną",
-    image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80",
+    category: "Łazienki",
+    title: "Układanie płytek drewnopodobnych i czarnych kafli geometrycznych",
+    image: img5,
     tall: true,
   },
   {
     id: 6,
-    category: "Zabudowy G-K",
-    title: "Zabudowa G-K z niszami",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+    category: "Łazienki",
+    title: "Nowoczesny salon kąpielowy z podświetleniem LED i armaturą podtynkową",
+    image: img6,
+    tall: true,
   },
   {
     id: 7,
-    category: "Łazienki",
-    title: "Prysznic walk-in",
-    image: "https://images.unsplash.com/photo-1620626011761-996317702782?w=800&q=80",
+    category: "Wykończenia",
+    title: "Minimalistyczne liniowe oświetlenie ledowe na klatce schodowej",
+    image: img7,
   },
   {
     id: 8,
     category: "Salony i Pokoje",
-    title: "Kuchnia z wyspą",
-    image: "https://images.unsplash.com/photo-1556909211-36987daf7b4d?w=800&q=80",
-    tall: true,
-  },
-  {
-    id: 9,
-    category: "Zabudowy G-K",
-    title: "Adaptacja poddasza",
-    image: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80",
+    title: "Prace malarskie i montaż suchej zabudowy w salonie",
+    image: img8,
   },
 ];
 
-const categories: Category[] = ["Wszystko", "Łazienki", "Zabudowy G-K", "Salony i Pokoje"];
+const categories: Category[] = ["Wszystkie", "Wykończenia", "Łazienki", "Salony i Pokoje"];
 
 export default function Portfolio() {
-  const [active, setActive] = useState<Category>("Wszystko");
+  const [active, setActive] = useState<Category>("Wszystkie");
 
   const filtered =
-    active === "Wszystko" ? items : items.filter((i) => i.category === active);
+    active === "Wszystkie" ? items : items.filter((i) => i.category === active);
 
   return (
     <section id="portfolio" className="py-24 md:py-32 bg-background">
