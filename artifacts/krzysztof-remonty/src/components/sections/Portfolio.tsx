@@ -73,6 +73,54 @@ const items: GalleryItem[] = [
     title: "Prace malarskie i montaż suchej zabudowy w salonie",
     image: img8,
   },
+  {
+    id: 9,
+    category: "Łazienki",
+    title: "Luksusowa łazienka na poddaszu z wolnostojącą wanną i złotą armaturą",
+    image: "/images/realizacje/lazienka-marmur-wanna.jpg",
+    tall: true,
+  },
+  {
+    id: 10,
+    category: "Łazienki",
+    title: "Nowoczesna strefa umywalkowa z marmurowym blatem i ścianą dekoracyjną",
+    image: "/images/realizacje/lazienka-marmur-umywalka.jpg",
+    tall: true,
+  },
+  {
+    id: 11,
+    category: "Łazienki",
+    title: "Przestronny natrysk walk-in z białym marmurem i złotymi profilami",
+    image: "/images/realizacje/lazienka-marmur-prysznic-1.jpg",
+    tall: true,
+  },
+  {
+    id: 12,
+    category: "Łazienki",
+    title: "Kameralna toaleta w ciemnych barwach z podświetlanym okrągłym lustrem",
+    image: "/images/realizacje/mala-lazienka-ciemna.jpg",
+    tall: true,
+  },
+  {
+    id: 13,
+    category: "Łazienki",
+    title: "Industrialna łazienka z liniowym LED, czarną armaturą i drewnem",
+    image: "/images/realizacje/nowoczesna-lazienka-led.jpg",
+    tall: true,
+  },
+  {
+    id: 14,
+    category: "Salony i Pokoje",
+    title: "Kompleksowy remont salonu – konstrukcja, sucha zabudowa, systemy wielkoformatowe",
+    image: "/images/realizacje/salon-remont-konstrukcja.jpg",
+  },
+  {
+    id: 15,
+    category: "Łazienki",
+    title: "Detale strefy natryskowej z deszczownicą w szczotkowanym złocie",
+    image: "/images/realizacje/lazienka-marmur-prysznic-2.jpg",
+    tall: true,
+  },
 ];
 
 const categories: Category[] = ["Wszystkie", "Wykończenia", "Łazienki", "Salony i Pokoje"];
