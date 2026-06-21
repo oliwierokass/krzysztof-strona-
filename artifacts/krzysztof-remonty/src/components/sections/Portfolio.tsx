@@ -10,7 +10,6 @@ import img6 from "@assets/6_1779293287675.webp";
 import img7 from "@assets/7_1779293287675.webp";
 import img8 from "@assets/8_1779293287675.webp";
 
-
 type Category = "Wszystkie" | "Wykończenia" | "Łazienki" | "Salony i Pokoje";
 
 interface GalleryItem {
@@ -73,54 +72,6 @@ const items: GalleryItem[] = [
     category: "Salony i Pokoje",
     title: "Prace malarskie i montaż suchej zabudowy w salonie",
     image: img8,
-  },
-  {
-    id: 9,
-    category: "Łazienki",
-    title: "Luksusowa łazienka z nowoczesną armaturą",
-    image: "/images/1.jpeg",
-    tall: true,
-  },
-  {
-    id: 10,
-    category: "Łazienki",
-    title: "Strefa umywalkowa z dekoracyjną ścianą",
-    image: "/images/2.jpeg",
-    tall: true,
-  },
-  {
-    id: 11,
-    category: "Łazienki",
-    title: "Przestronny natrysk walk-in z nowoczesnymi profilami",
-    image: "/images/3.jpeg",
-    tall: true,
-  },
-  {
-    id: 12,
-    category: "Wykończenia",
-    title: "Kompleksowe wykończenie mieszkania deweloperskiego",
-    image: "/images/4.jpeg",
-    tall: true,
-  },
-  {
-    id: 13,
-    category: "Salony i Pokoje",
-    title: "Sucha zabudowa z podświetleniem LED",
-    image: "/images/5.jpeg",
-    tall: true,
-  },
-  {
-    id: 14,
-    category: "Salony i Pokoje",
-    title: "Kompleksowy remont salonu – konstrukcja i wykończenie",
-    image: "/images/6.jpeg",
-  },
-  {
-    id: 15,
-    category: "Łazienki",
-    title: "Detale strefy natryskowej z nowoczesną armaturą",
-    image: "/images/7.jpeg",
-    tall: true,
   },
 ];
 

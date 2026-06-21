@@ -16,8 +16,8 @@ export default function About() {
           >
             <div className="aspect-[4/5] overflow-hidden bg-muted">
               <img 
-                src="/images/2.jpeg"
-                alt="Detale wykończenia"
+                src="/images/gallery-detail-1.png" 
+                alt="Detale wykończenia" 
                 className="w-full h-full object-cover"
               />
             </div>
