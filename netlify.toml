@@ -4,7 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "22.13.0"
-  PNPM_VERSION = "11"
+  PNPM_VERSION = "10.30.3"
+  PNPM_FLAGS = "--no-frozen-lockfile"
   PORT = "5173"
   BASE_PATH = "/"
 
