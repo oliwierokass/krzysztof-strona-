@@ -1,16 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "@assets/1_1779293287676.webp";
-import img2 from "@assets/2_1779293287673.webp";
 import img3 from "@assets/3_1779293287674.webp";
-import img4 from "@assets/4_1779293287674.webp";
-import img5 from "@assets/5_1779293287674.webp";
 import img6 from "@assets/6_1779293287675.webp";
 import img7 from "@assets/7_1779293287675.webp";
-import img8 from "@assets/8_1779293287675.webp";
 
-type Category = "Wszystkie" | "Wykończenia" | "Łazienki" | "Salony i Pokoje";
+type Category = "Wszystkie" | "Wykończenia" | "Łazienki";
 
 interface GalleryItem {
   id: number;
@@ -24,58 +19,55 @@ const items: GalleryItem[] = [
   {
     id: 1,
     category: "Wykończenia",
-    title: "Prace wyburzeniowe i przygotowanie konstrukcji sufitu",
-    image: img1,
+    title: "Ściana dekoracyjna z podświetleniem LED – panorama górska",
+    image: img3,
     tall: true,
   },
   {
     id: 2,
-    category: "Salony i Pokoje",
-    title: "Wykończenie sypialni na poddaszu, ściana dekoracyjna",
-    image: img2,
+    category: "Łazienki",
+    title: "Luksusowa łazienka z czarnym marmurem, prysznicem i podświetleniem LED",
+    image: img6,
     tall: true,
   },
   {
     id: 3,
-    category: "Salony i Pokoje",
-    title: "Nowoczesna zabudowa ścian z podświetleniem LED",
-    image: img3,
+    category: "Wykończenia",
+    title: "Minimalistyczna klatka schodowa z liniowym oświetleniem LED",
+    image: img7,
+    tall: true,
   },
   {
     id: 4,
-    category: "Wykończenia",
-    title: "Tynki dekoracyjne i przygotowanie wnęki TV",
-    image: img4,
+    category: "Łazienki",
+    title: "Ekskluzywna strefa umywalkowa – marmurowy blat i złota armatura",
+    image: "/images/2.jpeg",
+    tall: true,
   },
   {
     id: 5,
     category: "Łazienki",
-    title: "Układanie płytek drewnopodobnych i czarnych kafli geometrycznych",
-    image: img5,
+    title: "Kameralna łazienka na poddaszu – ciemny marmur i okrągłe lustro",
+    image: "/images/4.jpeg",
     tall: true,
   },
   {
     id: 6,
     category: "Łazienki",
-    title: "Nowoczesny salon kąpielowy z podświetleniem LED i armaturą podtynkową",
-    image: img6,
+    title: "Nowoczesna łazienka – czarne płytki, drewno i natrysk walk-in",
+    image: "/images/5.jpeg",
     tall: true,
   },
   {
     id: 7,
     category: "Wykończenia",
-    title: "Minimalistyczne liniowe oświetlenie ledowe na klatce schodowej",
-    image: img7,
-  },
-  {
-    id: 8,
-    category: "Salony i Pokoje",
-    title: "Prace malarskie i montaż suchej zabudowy w salonie",
-    image: img8,
+    title: "Artystyczne podświetlenie ścienne – motyw tatrzańskiej panoramy",
+    image: "/images/7.jpeg",
+    tall: true,
   },
 ];
 
-const categories: Category[] = ["Wszystkie", "Wykończenia", "Łazienki", "Salony i Pokoje"];
+const categories: Category[] = ["Wszystkie", "Wykończenia", "Łazienki"];
 
 export default function Portfolio() {
   const [active, setActive] = useState<Category>("Wszystkie");
