@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm --filter @workspace/krzysztof-remonty build"
+  command = "pnpm install --no-frozen-lockfile && pnpm --filter @workspace/krzysztof-remonty build"
   publish = "artifacts/krzysztof-remonty/dist/public"
 
 [build.environment]
