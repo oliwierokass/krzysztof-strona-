@@ -1,6 +1,15 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import img1 from "@assets/1_1779293287676.webp";
+import img2 from "@assets/2_1779293287673.webp";
+import img3 from "@assets/3_1779293287674.webp";
+import img4 from "@assets/4_1779293287674.webp";
+import img5 from "@assets/5_1779293287674.webp";
+import img6 from "@assets/6_1779293287675.webp";
+import img7 from "@assets/7_1779293287675.webp";
+import img8 from "@assets/8_1779293287675.webp";
+
 
 type Category = "Wszystkie" | "Wykończenia" | "Łazienki" | "Salony i Pokoje";
 
@@ -17,100 +26,100 @@ const items: GalleryItem[] = [
     id: 1,
     category: "Wykończenia",
     title: "Prace wyburzeniowe i przygotowanie konstrukcji sufitu",
-    image: "/images/3.jpeg",
+    image: img1,
     tall: true,
   },
   {
     id: 2,
     category: "Salony i Pokoje",
     title: "Wykończenie sypialni na poddaszu, ściana dekoracyjna",
-    image: "/images/4.jpeg",
+    image: img2,
     tall: true,
   },
   {
     id: 3,
     category: "Salony i Pokoje",
     title: "Nowoczesna zabudowa ścian z podświetleniem LED",
-    image: "/images/5.jpeg",
+    image: img3,
   },
   {
     id: 4,
     category: "Wykończenia",
     title: "Tynki dekoracyjne i przygotowanie wnęki TV",
-    image: "/images/6.jpeg",
+    image: img4,
   },
   {
     id: 5,
     category: "Łazienki",
-    title: "Układanie płytek i przygotowanie łazienki",
-    image: "/images/7.jpeg",
+    title: "Układanie płytek drewnopodobnych i czarnych kafli geometrycznych",
+    image: img5,
     tall: true,
   },
   {
     id: 6,
     category: "Łazienki",
-    title: "Nowoczesny salon kąpielowy z armaturą podtynkową",
-    image: "/images/1.jpeg",
+    title: "Nowoczesny salon kąpielowy z podświetleniem LED i armaturą podtynkową",
+    image: img6,
     tall: true,
   },
   {
     id: 7,
     category: "Wykończenia",
-    title: "Precyzyjne wykończenie detali wnętrza",
-    image: "/images/2.jpeg",
+    title: "Minimalistyczne liniowe oświetlenie ledowe na klatce schodowej",
+    image: img7,
   },
   {
     id: 8,
     category: "Salony i Pokoje",
     title: "Prace malarskie i montaż suchej zabudowy w salonie",
-    image: "/images/3.jpeg",
+    image: img8,
   },
   {
     id: 9,
     category: "Łazienki",
     title: "Luksusowa łazienka z nowoczesną armaturą",
-    image: "/images/4.jpeg",
+    image: "/images/1.jpeg",
     tall: true,
   },
   {
     id: 10,
     category: "Łazienki",
     title: "Strefa umywalkowa z dekoracyjną ścianą",
-    image: "/images/5.jpeg",
+    image: "/images/2.jpeg",
     tall: true,
   },
   {
     id: 11,
     category: "Łazienki",
-    title: "Przestronny natrysk walk-in z profilami",
-    image: "/images/6.jpeg",
+    title: "Przestronny natrysk walk-in z nowoczesnymi profilami",
+    image: "/images/3.jpeg",
     tall: true,
   },
   {
     id: 12,
     category: "Wykończenia",
     title: "Kompleksowe wykończenie mieszkania deweloperskiego",
-    image: "/images/7.jpeg",
+    image: "/images/4.jpeg",
     tall: true,
   },
   {
     id: 13,
     category: "Salony i Pokoje",
     title: "Sucha zabudowa z podświetleniem LED",
-    image: "/images/1.jpeg",
+    image: "/images/5.jpeg",
     tall: true,
   },
   {
     id: 14,
     category: "Salony i Pokoje",
     title: "Kompleksowy remont salonu – konstrukcja i wykończenie",
-    image: "/images/2.jpeg",
+    image: "/images/6.jpeg",
   },
   {
     id: 15,
     category: "Łazienki",
     title: "Detale strefy natryskowej z nowoczesną armaturą",
-    image: "/images/3.jpeg",
+    image: "/images/7.jpeg",
     tall: true,
   },
 ];
