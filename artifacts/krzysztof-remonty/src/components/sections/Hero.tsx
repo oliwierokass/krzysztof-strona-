@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/hero.png)' }}
+        style={{ backgroundImage: 'url(/images/1.jpeg)' }}
       >
         <div className="absolute inset-0 bg-black/60 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />

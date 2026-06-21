@@ -1,14 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "@assets/1_1779293287676.webp";
-import img2 from "@assets/2_1779293287673.webp";
-import img3 from "@assets/3_1779293287674.webp";
-import img4 from "@assets/4_1779293287674.webp";
-import img5 from "@assets/5_1779293287674.webp";
-import img6 from "@assets/6_1779293287675.webp";
-import img7 from "@assets/7_1779293287675.webp";
-import img8 from "@assets/8_1779293287675.webp";
 
 type Category = "Wszystkie" | "Wykończenia" | "Łazienki" | "Salony i Pokoje";
 
@@ -25,100 +17,100 @@ const items: GalleryItem[] = [
     id: 1,
     category: "Wykończenia",
     title: "Prace wyburzeniowe i przygotowanie konstrukcji sufitu",
-    image: img1,
+    image: "/images/3.jpeg",
     tall: true,
   },
   {
     id: 2,
     category: "Salony i Pokoje",
     title: "Wykończenie sypialni na poddaszu, ściana dekoracyjna",
-    image: img2,
+    image: "/images/4.jpeg",
     tall: true,
   },
   {
     id: 3,
     category: "Salony i Pokoje",
     title: "Nowoczesna zabudowa ścian z podświetleniem LED",
-    image: img3,
+    image: "/images/5.jpeg",
   },
   {
     id: 4,
     category: "Wykończenia",
     title: "Tynki dekoracyjne i przygotowanie wnęki TV",
-    image: img4,
+    image: "/images/6.jpeg",
   },
   {
     id: 5,
     category: "Łazienki",
-    title: "Układanie płytek drewnopodobnych i czarnych kafli geometrycznych",
-    image: img5,
+    title: "Układanie płytek i przygotowanie łazienki",
+    image: "/images/7.jpeg",
     tall: true,
   },
   {
     id: 6,
     category: "Łazienki",
-    title: "Nowoczesny salon kąpielowy z podświetleniem LED i armaturą podtynkową",
-    image: img6,
+    title: "Nowoczesny salon kąpielowy z armaturą podtynkową",
+    image: "/images/1.jpeg",
     tall: true,
   },
   {
     id: 7,
     category: "Wykończenia",
-    title: "Minimalistyczne liniowe oświetlenie ledowe na klatce schodowej",
-    image: img7,
+    title: "Precyzyjne wykończenie detali wnętrza",
+    image: "/images/2.jpeg",
   },
   {
     id: 8,
     category: "Salony i Pokoje",
     title: "Prace malarskie i montaż suchej zabudowy w salonie",
-    image: img8,
+    image: "/images/3.jpeg",
   },
   {
     id: 9,
     category: "Łazienki",
-    title: "Luksusowa łazienka na poddaszu z wolnostojącą wanną i złotą armaturą",
-    image: "/images/realizacje/lazienka-marmur-wanna.jpg",
+    title: "Luksusowa łazienka z nowoczesną armaturą",
+    image: "/images/4.jpeg",
     tall: true,
   },
   {
     id: 10,
     category: "Łazienki",
-    title: "Nowoczesna strefa umywalkowa z marmurowym blatem i ścianą dekoracyjną",
-    image: "/images/realizacje/lazienka-marmur-umywalka.jpg",
+    title: "Strefa umywalkowa z dekoracyjną ścianą",
+    image: "/images/5.jpeg",
     tall: true,
   },
   {
     id: 11,
     category: "Łazienki",
-    title: "Przestronny natrysk walk-in z białym marmurem i złotymi profilami",
-    image: "/images/realizacje/lazienka-marmur-prysznic-1.jpg",
+    title: "Przestronny natrysk walk-in z profilami",
+    image: "/images/6.jpeg",
     tall: true,
   },
   {
     id: 12,
-    category: "Łazienki",
-    title: "Kameralna toaleta w ciemnych barwach z podświetlanym okrągłym lustrem",
-    image: "/images/realizacje/mala-lazienka-ciemna.jpg",
+    category: "Wykończenia",
+    title: "Kompleksowe wykończenie mieszkania deweloperskiego",
+    image: "/images/7.jpeg",
     tall: true,
   },
   {
     id: 13,
-    category: "Łazienki",
-    title: "Industrialna łazienka z liniowym LED, czarną armaturą i drewnem",
-    image: "/images/realizacje/nowoczesna-lazienka-led.jpg",
+    category: "Salony i Pokoje",
+    title: "Sucha zabudowa z podświetleniem LED",
+    image: "/images/1.jpeg",
     tall: true,
   },
   {
     id: 14,
     category: "Salony i Pokoje",
-    title: "Kompleksowy remont salonu – konstrukcja, sucha zabudowa, systemy wielkoformatowe",
-    image: "/images/realizacje/salon-remont-konstrukcja.jpg",
+    title: "Kompleksowy remont salonu – konstrukcja i wykończenie",
+    image: "/images/2.jpeg",
   },
   {
     id: 15,
     category: "Łazienki",
-    title: "Detale strefy natryskowej z deszczownicą w szczotkowanym złocie",
-    image: "/images/realizacje/lazienka-marmur-prysznic-2.jpg",
+    title: "Detale strefy natryskowej z nowoczesną armaturą",
+    image: "/images/3.jpeg",
     tall: true,
   },
 ];
