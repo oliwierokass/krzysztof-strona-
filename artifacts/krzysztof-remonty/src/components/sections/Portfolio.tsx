@@ -21,7 +21,6 @@ const items: GalleryItem[] = [
     category: "Wykończenia",
     title: "Ściana dekoracyjna z podświetleniem LED – panorama górska",
     image: img3,
-    tall: true,
   },
   {
     id: 2,
@@ -56,13 +55,6 @@ const items: GalleryItem[] = [
     category: "Łazienki",
     title: "Nowoczesna łazienka – czarne płytki, drewno i natrysk walk-in",
     image: "/images/5.jpeg",
-    tall: true,
-  },
-  {
-    id: 7,
-    category: "Wykończenia",
-    title: "Artystyczne podświetlenie ścienne – motyw tatrzańskiej panoramy",
-    image: "/images/7.jpeg",
     tall: true,
   },
 ];
